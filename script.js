@@ -10,7 +10,7 @@ function createCanva(){
                 let cvs  = document.querySelector("canvas")
                 let a = document.querySelector(".download")
                 a.href=cvs.toDataURL("")
-                a.download="html2canvas.png"
+                a.download="plantao.png"
            
            
     });
