@@ -3,9 +3,10 @@
     margin: 0;
     box-sizing: border-box;
 }
+
 @font-face{ 
     font-family: myFont;
-    src: url("../Pharmacy/armin-soft-black.ttf"); /* GIT HUB PAGESs */
+    src: url("armin-soft-black.ttf"); /* GIT HUB PAGESs */
     /* src: url("armin-soft-black.ttf");    LOCALMENTE */
 }
 body{
