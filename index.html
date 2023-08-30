@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Farmanova</title>
+</head>
+<body>  
+    <div class="container2">
+        <fieldset>
+            <legend>Dia 01</legend>
+            <select name="" id="select">
+                
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend>Dia 02</legend>
+            <select name="" id="select2">
+                
+            </select>
+            
+        </fieldset>
+        
+        <fieldset>
+            <legend>Escreva o Mês</legend>
+            <input type="text" id="textInput" >
+        </fieldset>
+    </div>
+    <div class="cores">
+        <fieldset>
+            <legend>Escolha a Cor</legend>
+            <button class="cor" id="blue1" onclick="trocarImagem('backgrounds/blue1.png')"></button>
+            <button class="cor" id="blue2" onclick="trocarImagem('backgrounds/blue2.png')"></button>
+            <button class="cor" id="orange1" onclick="trocarImagem('backgrounds/orange1.png')"></button>
+            <button class="cor"></button>
+            <button class="cor"></button>
+            <button class="cor"></button>
+            <button class="cor"></button>
+            <button class="cor"></button>
+            <button class="cor"></button>
+            <button class="cor"></button>
+            <button class="cor"></button>
+            <button class="cor"></button>
+            <br><br>
+            <button class="cor"></button>
+            <button class="cor"></button>
+            <button class="cor"></button>
+            <button class="cor"></button>
+            <button class="cor"></button>
+            <button class="cor"></button>
+            <button class="cor"></button>
+            <button class="cor"></button>
+            <button class="cor"></button>
+            <button class="cor"></button>
+            <button class="cor"></button>
+            <button class="cor"></button>
+        </fieldset>
+    </div>
+    
+    
+    <div class="container">
+        <div class="data1">
+            <h1 class="h1" id="espelho">00</h1>
+            <p class="letraE">e</p>
+            <h1 id="espelho2">00</h1>
+            
+            
+        </div>
+        <div class="mes">
+            <p id="espelhoInput">Mês Aqui</p>
+        </div>
+        
+        
+        <img id="image" src="backgrounds/blue1.png" alt="" srcset="">
+    </div>
+    <div class="result">
+
+    </div>
+    <div class="buttons">
+        <button class="save" onclick="createCanva()">Salvar</button>
+        <a class="download" href="" onclick="">Download</a>
+    </div>
+    
+    <script src="script.js"></script>
+    <script src="html2canvas.js""></script>
+    <!-- <script>
+        const elm = document.querySelector(".container")
+        
+        html2canvas(elm,{scale: 3}).then(function(canvas) {
+            document.querySelector(".result").append(canvas)
+           // document.body.appendChild(canvas);
+           let cvs  = document.querySelector("canvas")
+           let a = document.querySelector(".download")
+           a.href=cvs.toDataURL("")
+           a.download="html2canvas.png"
+    });
+    </script> -->
+
+    
+    
+</body>
+</html>

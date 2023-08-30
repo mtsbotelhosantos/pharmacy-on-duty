@@ -1,0 +1,158 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@font-face{ 
+    font-family: myFont;
+    src: url("../Pharmacy/armin-soft-black.ttf"); /* GIT HUB PAGESs */
+    /* src: url("armin-soft-black.ttf");    LOCALMENTE */
+}
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    align-items: center;
+    justify-content: center ;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    
+}
+.container2{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+   
+    
+}
+
+img{
+    box-shadow: 0 1rem 3rem -1rem rgba(255, 255, 255, 0.3);
+    min-width: 370px;
+    max-width: 370px;
+    transition: opacity 0.9s ease;
+    
+    
+}
+h1{
+    padding: 15px;
+    color: white;
+    font-family: myFont;
+    font-size: 35px;
+    
+    
+}
+p{
+    color: aliceblue;
+    font-family: myFont;
+}
+.data1{
+    display: flex;
+    position: absolute;
+    text-align: center;
+    margin-left: 86px;
+    margin-top: 200px;
+}
+.mes{
+    display: flex;
+    position: absolute;
+    text-align: center;
+    margin-left: 95px;
+    margin-top: 250px;
+}
+
+.letraE{
+    font-size: 25px;
+    align-items: center;
+    display: flex;
+}
+legend{
+    color: aliceblue;
+    font-family: myFont;
+    padding: 1px;
+}
+.result{
+    display: none;
+}
+fieldset{
+    padding: 5px;
+    border-radius: 10px;
+    margin: 5px;
+    text-align: center;
+}
+select{
+    
+    padding: 2px;
+    width: 50px;
+    font-family: myFont;
+    font-size: medium;
+}
+input{
+    padding: 2px;
+    font-family: myFont;
+    font-size: large;
+    width: 180px;
+}
+.buttons{
+    
+    align-items: center;
+    
+}
+.save{
+    margin-top: 12px;
+    padding: 6px;
+    width: 200px;
+    background-color: rgb(6, 255, 110);
+    border: none;
+    border-radius: 50px;
+    font-family: myFont;
+    
+    
+}
+.save:hover{
+    
+    background-color: rgb(99, 252, 163);
+    cursor: pointer;
+
+}
+.download{
+    background-color: rgb(207, 0, 0);
+     padding: 4px 15px;
+    border-radius: 50px;
+    font-family: myFont;
+    text-decoration: none;
+    color: white; 
+    
+    
+}
+.download:hover{
+    
+    background-color: rgb(216, 33, 33);
+}
+.cor{
+    width: 25px;
+    height: 25px;
+    font-size: larger;
+    border: none;
+    border-radius: 4px;
+    
+}
+.cor:hover{
+    outline: solid rgb(255, 255, 255);
+}
+
+    
+#blue1{
+    background-color: #00ccff;
+    
+    
+}
+#blue2{
+    background-color: #00ffba;
+}
+#orange1{
+    background-color: #ff9000;
+}
