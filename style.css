@@ -98,18 +98,20 @@ input{
     width: 150px;
 }
 .buttons{
-    
+    margin-top: 10px;
     align-items: center;
     
 }
 .save{
     margin-top: 12px;
     padding: 6px;
-    width: 200px;
+    height: 35px;
+    width: 300px;
     background-color: rgb(6, 255, 110);
     border: none;
     border-radius: 50px;
     font-family: myFont;
+    color: black;
     
     
 }
@@ -117,6 +119,8 @@ input{
     
     background-color: rgb(99, 252, 163);
     cursor: pointer;
+
+    
 
 }
 .download{
@@ -126,6 +130,7 @@ input{
     font-family: myFont;
     text-decoration: none;
     color: white; 
+    display: none;
     
     
 }
@@ -156,4 +161,61 @@ input{
 }
 #orange1{
     background-color: #ff9000;
+}
+#purple1{
+    background-color: #9000ff;
+}
+#purple2{
+    background-color: #6600ff;
+}
+#purple3{
+    background-color: #7b68ee;
+}
+#green1{
+    background-color: #00ff72;
+}
+#yellow1{
+    background-color: #ffc000;
+}
+#blue3{
+    background-color: #008aff;
+}
+#red1{
+    background-color: #a30017;
+}
+#red2{
+    background-color: #ff0000;
+}
+#pink1{
+    background-color: #cc00ff;
+}
+#pink2{
+    background-color: #db7093;
+}
+#olive1{
+    background-color: #afaf00;
+}
+#brow1{
+    background-color: #d2691e;
+}
+#green2{
+    background-color: #00a113;
+}
+#grey1{
+    background-color: #2f4f4f;
+}
+#grey2{
+    background-color: #a9a9a9;
+}
+#grey3{
+    background-color: #363636;
+}
+#blue4{
+    background-color: #0000cd;
+}
+#blue5{
+    background-color: #00ffff;
+}
+#pink3{
+    background-color: #dc143c;
 }

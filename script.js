@@ -2,18 +2,28 @@
 function createCanva(){
     
     const elm = document.querySelector('.container')
-        
+    const shure = confirm("CTZ Q QUER SALVAR?")    
+
+    
         html2canvas(elm,{scale: 3}).then(function(canvas) {
             document.querySelector(".result").append(canvas)
           
+          if (shure == true){
            
                 let cvs  = document.querySelector("canvas")
                 let a = document.querySelector(".download")
                 a.href=cvs.toDataURL("")
                 a.download="plantao.png"
+                a.click()
+
+          }else{
+                alert("Ok, download cancelado!")
+          }
+            
            
            
     });
+ 
     
 }
 //END CANVA GENERATOR
