@@ -2,7 +2,7 @@
 function createCanva(){
     
     const elm = document.querySelector('.container')
-    const shure = confirm("CTZ Q QUER SALVAR?")    
+    const shure = confirm("Efetuar download da imagem?")    
 
     
         html2canvas(elm,{scale: 3}).then(function(canvas) {
